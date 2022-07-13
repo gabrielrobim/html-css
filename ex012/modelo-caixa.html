@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-model</title>
+    <style>
+        h1 {
+            color: white;
+            background-color: gray;
+            /*logo abaixo temos o box-size*/
+            height: 200px;
+            width: 200px;
+
+            /* border-width: 8px;
+            border-style: solid;
+            border-color: darkgray; 
+            pode fazer de forma mais sinplificada, como no codigo a baixo*/
+
+            border: 8px solid darkgrey;
+
+           /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; Quando se tem 4 numeros iguais, basta informar o primeiro valor*/
+
+            padding: 10px;
+
+          /*  margin-top: 20px;
+            margin-right: 40px;
+            margin-bottom: 20px;
+            margin-left: 20px; Quando precisasr infomar todos os numeros informe na forma horaria*/
+
+            margin: 20px 40px 20px 20px;
+
+            outline: 5px dashed salmon;
+        }
+
+        a {
+            text-decoration: none;
+
+            padding: 5px 3px;
+
+            border: 2px solid yellow;
+
+            margin: 10px;
+        }
+
+        a:active{
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>isso aqui é uma caixa</h1>
+    <p>um paragrafo também é uma caixa, mas <a href="#">um link é diferente</a> ele é uma inline box.</p>
+</body>
+</html>

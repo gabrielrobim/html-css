@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo em caixas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.486) ;
+        }
+        
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+
+        nav > a:active {
+            color: #000;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.384);
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(128, 123, 123);
+        }
+
+        div#bola {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ducimus nulla quasi ratione voluptates. Voluptates magnam, alias, quae distinctio quasi quidem possimus inventore veniam rerum eveniet officia, saepe provident obcaecati.</p>
+                <aside>
+                    <p>artigo escrito por Jose Bezerra.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Gabriel Robim</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
